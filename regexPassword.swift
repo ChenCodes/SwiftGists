@@ -1,3 +1,4 @@
+//This method checks to see if a text field has a capital letter, a number, a special character, as well as a length of at least 8 characters.
 
 func checkTextSufficientComplexity(var text : String) -> Bool{
     let capitalLetterRegEx  = ".*[A-Z]+.*"
@@ -17,3 +18,4 @@ func checkTextSufficientComplexity(var text : String) -> Bool{
 }
 
 checkTextSufficientComplexity("Avatar123!") 
+
